@@ -1,0 +1,15 @@
+<h1>Page d'accueil</h1>
+<div  *ngFor="let voiture of voitures">
+ <header class="joujou"> 
+<img class="slah" src="../assets/kia.jpg"> 
+<img class="hhjhh" src="../assets/porsche.png">
+<img class="hhjhh" src="../assets/bmw.jpg">
+<img class="hhjhh" src="../assets/ferrari.jpg">
+<img class="hhjhh" src="../assets/lambo.jpeg">
+<img class="hhjhh" src="../assets/mercedes.jpg">
+ <button class="guizani" (click)="ajouterVoiture()">Ajouter</button>   
+  <button class="hayet" routerLink="/details/{{voiture.id}}">Détails</button>
+  <router-outlet></router-outlet>
+
+</header>
+</div> 

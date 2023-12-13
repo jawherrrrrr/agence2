@@ -1,0 +1,19 @@
+nav {
+    background-color: pink;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  a.jawher:link {color:#ff0000;}
+  a.jawher:visited {color:#0000ff;}
+  a.jawher:hover {font-size:150%;}
+  

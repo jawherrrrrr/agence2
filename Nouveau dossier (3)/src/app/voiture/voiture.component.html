@@ -1,0 +1,8 @@
+<h1>Liste des voitures</h1>
+<ul>
+  <li *ngFor="let car of cars">
+    <img [src]="car.imageUrl" alt="{{ car.name }}">
+    <p><strong>Nom:</strong> {{ car.name }}</p>
+    <button (click)="showDetails(car.id)">Détails</button>
+  </li>
+</ul>

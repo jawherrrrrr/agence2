@@ -1,0 +1,42 @@
+.guizani {
+    background-color: red; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+   
+  
+.guizani:hover {
+background-color: #f44336;
+color: white;
+  }
+.joujou{
+justify-content:space-between;
+ }
+ .hayet{
+   margin-left: 35px;
+ }
+ .slah{
+margin-right: -150px;
+height:560px;
+width:860px ;
+padding-right: 150px;
+border-radius: 40px;
+}
+ .hayet {
+    background-color: red; 
+    color: black; 
+    border: 2px solid #f44336;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 45px;
+}
+  
+  .hayet:hover{
+    background-color: #f44336;
+    color: white;
+  }
+  

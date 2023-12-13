@@ -1,0 +1,15 @@
+<button (click)="toggleDetails()">Afficher les détails</button>
+
+<div *ngIf="showDetails">
+  <div *ngFor="let car of cars">
+    <div>
+      <h1>Détails de la voiture {{ car.name }}</h1>
+      <img [src]="car.imageUrl" alt="{{ car.name }}">
+      <p><strong>Modèle:</strong> {{ car.model }}</p>
+      <p><strong>Année:</strong> {{ car.year }}</p>
+      <p><strong>Couleur:</strong> {{ car.color }}</p>
+      <p *ngIf="car.price"><strong>Prix:</strong> {{ car.price }}</p>
+      <hr>
+    </div>
+  </div>
+</div>
